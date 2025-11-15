@@ -14,10 +14,15 @@ x if x >= 0.
 ## Algorithm
 
 1.Start the program.
+
 2.Input the size of the array n, the n array elements, and an integer k.
+
 3.Initialize a counter variable count = 0.
-4.Compare each pair of elements:
-5.Use two loops: For each i from 0 to n-1, and for each j from i+1 to n-1, check if the absolute difference |nums[i] - nums[j]| == k.If true, increment count by 
+
+4.Compare each pair of elements
+
+5.Use two loops: For each i from 0 to n-1, and for each j from i+1 to n-1, check if the absolute difference |nums[i] - nums[j]| == k.If true, increment count by 1
+
 6.Display the total count of such pairs and stop the program.   
 
 ## Program:
