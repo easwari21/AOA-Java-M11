@@ -10,10 +10,15 @@ An integer n is a power of two, if there exists an integer x such that n == 2x.
 ## Algorithm
 
 1.Start the program.
+
 2.Read an integer n from the user.
+
 3.If n ≤ 0, display false and terminate the program.
+
 4.Use a bitwise check: compute n & (n - 1).
+
 5.If the result is 0, then n is a power of two.
+
 6.Display true or false accordingly and end the program.
 
 ## Program:
