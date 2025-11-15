@@ -12,10 +12,15 @@ The overall run time complexity should be O(log (m+n)).
 ## Algorithm
 
 1.Start the program and read the sizes of the two sorted arrays, m and n, then input the elements of nums1 and nums2.
+
 2.Initialize two pointers: p1 = 0 and p2 = 0 to traverse both arrays.
+
 3.Use a helper function getMin() to return the smaller of the current elements from the two arrays and advance the corresponding pointer.
+
 4.If m + n is even, skip (m + n)/2 − 1 elements, then take the average of the next two smallest values as the median.
+
 5.If m + n is odd, skip (m + n)/2 elements, then take the next smallest value as the median.
+
 6.Display the calculated median and end the program.  
 
 ## Program:
