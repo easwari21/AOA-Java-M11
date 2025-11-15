@@ -12,9 +12,13 @@ Unlike traditional matrix multiplication which takes O(n3)O(n^3)O(n3) time, Stra
 ## Algorithm
 
 1.Start the program. Read the size n (power of 2) and input two n × n matrices A and B.
+
 2.Divide each matrix into four submatrices: A11, A12, A21, A22 and B11, B12, B21, B22, each of size (n/2) × (n/2).
+
 3.Compute using Strassen’s formulas - M1 = (A11 + A22) × (B11 + B22) M2 = (A21 + A22) × B11 M3 = A11 × (B12 - B22) M4 = A22 × (B21 - B11) M5 = (A11 + A12) × B22 M6 = (A21 - A11) × (B11 + B12) M7 = (A12 - A22) × (B21 + B22)
+
 4.Combine the results to form the results
+
 5.Display the resultant matrix C as the product of A and B, and stop the program.
 
 ## Program:
